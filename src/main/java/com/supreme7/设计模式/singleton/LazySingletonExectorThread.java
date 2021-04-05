@@ -11,7 +11,7 @@ public class LazySingletonExectorThread implements Runnable {
 
     @Override
     public void run() {
-        LazySingleton singleton = LazySingleton.getLazySingleton();
+        LazySingleton1 singleton = LazySingleton1.getLazySingleton();
         System.out.println(Thread.currentThread().getName() + ":" + singleton);
     }
 }
