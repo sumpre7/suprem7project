@@ -1,6 +1,8 @@
 package com.supreme7.jvm;
 
 import java.util.HashSet;
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Set;
 
 /**
@@ -16,6 +18,7 @@ public class Main {
 
     public static int minus(){
         Set set=new HashSet();
+        Queue queue = new PriorityQueue<>();
         set.size();
         int a = 3;
         int b = 1;
